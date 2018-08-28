@@ -26,7 +26,7 @@ class PersonSpec extends MongoSpec
         given:
         domain.name = 'Bart'
         domain.surname = 'Simpson'
-        domain.email = 'bsimpson@mail.com'
+        domain.email = 'barsim@mail.com'
 
         when:
         domain.save()
